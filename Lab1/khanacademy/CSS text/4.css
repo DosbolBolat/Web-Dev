@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+h6 {
+    color: #777;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(241, 250, 230);
+    font-family:sans-serif;
+}
+#flinstones {
+    font-family:monospace;
+}
+
+#jetsons {
+    font-family:serif;
+    
+}
+
+#addams {
+    font-family:cursive;
+}

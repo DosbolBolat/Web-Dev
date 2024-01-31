@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1 {
+    color: #008080;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.rsvp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.rsvp-button:hover {
+    background-color: #005555;
+}

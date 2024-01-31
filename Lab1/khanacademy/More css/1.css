@@ -1,0 +1,43 @@
+body {
+    font-family: cursive;
+}
+
+.image-small {
+    width: 150px;
+}
+.image-medium {
+    width: 200px;
+}
+.black-frame {
+    border: 8px double rgb(38, 38, 38);
+}
+.gold-frame {
+    border: 10px ridge rgb(255, 183, 0);
+}
+.silver-frame {
+    border: 10px groove rgb(204, 204, 204);
+}
+.size1{
+    position:absolute;
+    top:10px;
+    left:10;
+}
+.font1{
+    border:10px double green;
+}
+.size2{
+    position:absolute;
+    top:600px;
+    left:10px;
+}
+.font2{
+    border:10px double green;
+}
+.size3{
+    position:absolute;
+    top:1200px;
+    left:10px;
+}
+.font3{
+    border:10px double green;
+}
