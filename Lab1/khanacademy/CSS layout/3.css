@@ -1,13 +1,16 @@
 body {
     font-family: cursive;
+    font-size: 50px;
 }
 .photo-gallery {
     border: 5px dashed yellow;
     padding: 15px;
     background: rgb(255, 254, 217);
+    
 }
 .photo {
     margin:15px;
     border: 15px double green;
     width: 200px;
+    border-radius: 100% ;
 }
