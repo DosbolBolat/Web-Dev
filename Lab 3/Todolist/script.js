@@ -6,7 +6,7 @@ function renderTodoList() {
   todoList.innerHTML = '';
   todoItems.forEach((item, index) => {
     const listItem = document.createElement('li');
-    listItem.classList.add('item');
+    listItem.classList.add('item');  
     if (item.completed) {
       listItem.classList.add('completed');
     }
