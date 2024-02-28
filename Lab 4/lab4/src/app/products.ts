@@ -5,73 +5,72 @@ export interface Product {
   img: string[];
   price: number;
   description: string;
-  rating: number;
+  rating:number;
 
 }
 
 export const products = [
   {
     id: 1,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/hfc/h07/84326675808286.jpg?format=gallery-medium"],
-    name: 'Smartphone Google Pixel 8 8 GB/128 GB gray',
-    price: 290000,
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium"],
+    name: 'Смартфон Apple iPhone 13 128Gb Midnight черный',
+    price: 297488,
     description: 'nFC technology: Yes\n' +
-        'color: gray\n' +
+        'color: черный\n' +
         'screen type: OLED, Gorilla Glass Victus\n' +
-        'diagonal: 6.2 inch\n' +
-        'rAM size: 8 GB\n' +
-        'processor: 8-core Google Tensor G3\n' +
+        'diagonal: 6.1 inch\n' +
+        'rAM size: 4 GB\n' +
+        'processor: 6-ядерный Apple A15 Bionic\n' +
         'built-in memory: 128.0 GB\n' +
-        'battery capacity: 4575.0 mAh',
-    link: 'https://kaspi.kz/shop/p/google-pixel-8-8-gb-128-gb-seryi-114016975/?c=750000000',
-    rating: 0,
+        'battery capacity: 3095.0 мАч',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000',
+    rating: 5,
 
   },
   {
     id: 2,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/h7d/hf3/83817514074142.jpg?format=gallery-medium"],
-    name: 'Smartphone Google Pixel Fold 12 GB/256 GB black',
-    price: 748999,
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/hdc/h12/80750151303198.jpg?format=gallery-medium"],
+    name: 'Смартфон Samsung Galaxy A24 6 ГБ/128 ГБ черный',
+    price: 70717,
     description: 'nFC technology: Yes\n' +
         'black color\n' +
         'screen type: OLED, touch\n' +
-        'diagonal: 7.6 inch\n' +
-        'rAM size: 12 GB\n' +
-        'processor: 8-core Google Tensor G2\n' +
-        'built-in memory: 256.0 GB\n' +
-        'battery capacity: 4821.0 mAh',
-    link: 'https://kaspi.kz/shop/p/google-pixel-fold-12-gb-256-gb-chernyi-113360114/?c=750000000',
+        'diagonal: 6.5 inch\n' +
+        'rAM size: 6 GB\n' +
+        'processor: 8-ядерный MediaTek Helio G99\n' +
+        'built-in memory: 128.0 ГБ\n' +
+        'battery capacity: 5000.0 мАч',
+    link: 'https://kaspi.kz/shop/p/samsung-galaxy-a24-6-gb-128-gb-chernyi-110343531/?c=750000000',
     rating: 5,
 
   },
   {
     id: 3,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/hbf/h4c/68674196406302.jpg?format=gallery-medium"],
-    name: 'Google Pixel Buds A-Series headphones black ',
-    price: 65184,
-    description: 'type: headset\n' +
-        'type: in-ear\n' +
-        'connection: wireless\n' +
-        'type of acoustic design: closed\n' +
-        'mount Type: Ear Mount\n' +
-        'active Noise Cancellation: No\n' +
-        'microphone: Yes',
-    link: 'https://kaspi.kz/shop/p/google-pixel-buds-a-series-chernyi-108764457/?c=750000000',
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/h06/h08/64213171568670.jpg?format=gallery-medium"],
+    name: 'Ноутбук Apple MacBook Air 13 MGN63RU/A серый',
+    price: 458000,
+    description: 'screen diagonal: 13.3 дюйм\n' +
+        'processor: Apple M1\n' +
+        'video card:Apple M1\n' +
+        'rAM size: 8.0 Гб\n' +
+        'hard drive type: SSD\n' +
+        'total storage capacity: 256.0 Гб',
+    link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-mgn63ru-a-seryi-101182724/?c=750000000',
     rating: 5,
 
   },
   {
     id: 4,
-    img: ["https://resources.cdn-kaspi.kz/img/m/p/h46/hba/68063671025694.jpg?format=gallery-medium"],
-    name: 'Laptop Lenovo ThinkPad T14 Gen 3 21CF0027RT black',
-    price: 476086,
-    description: 'screen diagonal: 14.0 inch\n' +
-        'processor: AMD Ryzen 5 PRO 6650U\n' +
-        'video card: AMD Radeon 660M\n' +
-        'rAM size: 8.0 GB\n' +
+    img: ["https://resources.cdn-kaspi.kz/img/m/p/hd3/h7b/84577188020254.jpg?format=gallery-medium"],
+    name: 'Ноутбук Apple MacBook Pro 14 MRX33 черный',
+    price: 1020192,
+    description: 'screen diagonal: 14.2 дюйм\n' +
+        'processor: Apple M3 Pro\n' +
+        'video card:Apple M3 Pro 14-Core\n' +
+        'rAM size: 18.0 Гб\n' +
         'hard drive type: SSD\n' +
-        'total storage capacity: 256.0 GB',
-    link: 'https://kaspi.kz/shop/p/lenovo-thinkpad-t14-gen-3-21cf0027rt-chernyi-108519702/?c=750000000',
+        'total storage capacity: 512.0 Гб',
+    link: 'https://kaspi.kz/shop/p/apple-macbook-pro-14-mrx33-chernyi-114861358/?c=750000000',
     rating: 5,
 
   },{

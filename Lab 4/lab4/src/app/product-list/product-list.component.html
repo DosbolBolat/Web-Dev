@@ -22,11 +22,10 @@
       <span>{{ product.price }} </span
       > ₸
     </p>
-    <ngb-rating
-      [max]="5"
-      [(rate)]="product.rating"
-      [readonly]="true"
-    ></ngb-rating>
+    <div style="display: flex; flex-direction: row;">
+      <img src="../../assets/star.jpg" style="width: 20px; height: 20px;">
+      <p style="margin-left: 10px; margin-top: 2px;"><strong>{{product.rating}}</strong></p>
+    </div>
     <div class="button-container button-row">
       <button type="button" (click)="sharetg(product.name, product.link)">
         Share with Telegram
