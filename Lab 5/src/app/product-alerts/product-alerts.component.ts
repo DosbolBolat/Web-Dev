@@ -8,5 +8,9 @@ import { Product, products } from '../products';
 })
 export class ProductAlertsComponent {
   @Input() product: Product | undefined;
-  @Output() notify = new EventEmitter();
+  @Output() remove = new EventEmitter();
+
+  removeProduct() {
+    this.remove.emit(this.product?.id);
+  }
 }

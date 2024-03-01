@@ -10,9 +10,9 @@ import { Product, products } from '../products';
 
 export class ProductListComponent {
   @Input () id: number | undefined;
-  @Output () remove = new EventEmitter();
   products: Product[] = products;
   searchInput: string = '';
+  isLike = false;
 
   get filteredProducts(): Product[] {
     const searchTerm = this.searchInput.toLowerCase();
@@ -25,8 +25,17 @@ export class ProductListComponent {
     window.location.href = telegramLink;
   }
 
-  removeProduct() {
-    this.remove.emit(this.products);
+  remove(id: number){
+    this.products = this.products.filter((x) => x.id !== id);
+  }
+  clickLike(product: Product){
+    if(!this.isLike){
+      product.likes++;
+    }
+    else{
+      product.likes--;
+    }
+    this.isLike = !this.isLike;
   }
 
 }

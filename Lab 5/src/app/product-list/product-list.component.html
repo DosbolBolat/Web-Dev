@@ -2,7 +2,7 @@
   <div *ngFor="let product of filteredProducts" class="product-container">
     <div *ngIf="id == undefined || product.category_id==id"  class="product-card">
       <div *ngFor="let image of product.img; let i = index">
-        <button (click)="removeProduct()" class="remove_btn">remove</button>
+        <app-product-alerts [product]="product" (remove)="remove($event)"></app-product-alerts>
         <img
           [src]="image"
           [alt]="product.name"
@@ -24,8 +24,15 @@
         > ₸
       </p>
       <div style="display: flex; flex-direction: row;">
-        <img src="../../assets/star.jpg" style="width: 20px; height: 20px;">
-        <p style="margin-left: 10px; margin-top: 2px;"><strong>{{product.rating}}</strong></p>
+        <div style="display: flex; flex-direction: row;">
+          <img src="../../assets/star.jpg" style="width: 20px; height: 20px;">
+          <p style="margin-left: 10px; margin-top: 2px;"><strong>{{product.rating}}</strong></p>
+        </div>
+        <div (click)="clickLike(product)" style="display: flex; flex-direction: row;">
+          <img id="like" *ngIf="isLike" src="../../assets/like(1).png">
+          <img id="like" *ngIf="!isLike" src="../../assets/like.png">
+          <h3>{{ product.likes }}</h3>
+        </div>
       </div>
       <div class="button-container button-row">
         <button type="button" (click)="sharetg(product.name, product.link)">

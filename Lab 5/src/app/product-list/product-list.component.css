@@ -69,3 +69,8 @@ span {
 .price {
   font-size: 20px;
 }
+#like{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
