@@ -1,0 +1,19 @@
+<!--<h3>{{title}}</h3>-->
+<!--<app-home></app-home>-->
+<!--<app-about></app-about>-->
+
+<div class="top-bar">
+  <ul class="top">
+    <li>
+      <a [routerLink]="['/home']">Home</a>
+    </li>
+    <li>
+      <a [routerLink]="['/about']">About</a>
+    </li>
+    <li>
+      <a [routerLink]="['/albums']">Albums</a>
+    </li>
+  </ul>
+</div>
+<div class="page"></div>
+<router-outlet></router-outlet>

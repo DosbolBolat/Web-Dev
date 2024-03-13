@@ -1,0 +1,16 @@
+.top{
+  display:flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.top-bar{
+  height: 50px;
+  width: 100%;
+  background-color: azure;
+  position: fixed;
+  margin: -8px;
+}
+.page{
+  padding-bottom: 50px;
+}
