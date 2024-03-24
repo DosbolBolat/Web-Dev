@@ -1,0 +1,70 @@
+/* Основные стили для контейнера */
+.return,
+.update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+h3,
+h4 {
+  text-align: center;
+}
+
+/* Стили для кнопок */
+button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Стили для поля ввода */
+input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+/* Анимация для блока изменения заголовка */
+.change {
+  animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Стили для блока загрузки */
+.loading {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
